@@ -1,0 +1,35 @@
+/* Contact
+   ========================================================================== */
+
+/**
+ * Apply Contact form and Bg color
+ */
+.form-bg {
+	margin-top: 20px;
+	background-color: $color-rgba;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow:0 5px 10px $color-shadow;
+}
+input[type=text], textarea {
+	display: block;
+	width: 90%;
+	padding: 20px;
+	margin: 10px 0;
+	border-radius: 10px;
+	border:1px solid $text-color;
+	color: $text-color;
+}
+button {
+	background-color: $white-color;
+	color: $light-black;
+	padding: 10px;
+	border: 0;
+	border-radius: 10px;
+	border: 1px solid $text-color;
+}
+button:hover {
+	background-color: $light-black;
+	color: $white-color;
+	border: 1px solid $text-color;
+}

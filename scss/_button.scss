@@ -1,0 +1,23 @@
+/* Button
+   ========================================================================== */
+
+/**
+ * Button
+ */
+.btn {
+	@include btn;
+	background-color: $white-color;
+}
+.btn-active {
+	@include btn;
+	background-color: rgba($light-black, .3);
+	color: $white-color;
+}
+.btn-active:hover {
+	background-color: rgba($white-color, .3);
+	color: $default-hyperlink;
+}
+.btn:hover {
+	background-color: $default-hyperlink;
+	color: $white-color;
+}

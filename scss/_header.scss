@@ -1,0 +1,35 @@
+
+/* Main Header
+   ========================================================================== */
+
+/**
+ * Apply Main Header and top menu
+ */
+.main-header {
+	background-color: $color-rgba;
+	width: 100%;
+	padding: 10px 0;
+	box-shadow:0 5px 5px #777;
+	.logo {
+		margin: 0;
+		padding-top: 10px;
+
+	}
+	nav {
+		text-align: right;
+		float: right;
+		margin: 0;
+		ul li {
+			display: inline;
+		}
+		ul li a {
+			@include hyperlink;
+		}
+		ul li a:hover {
+			@include hyperlink;
+			background-color: $light-black;
+			border-radius: 10px;
+			color: $white-color;
+		}
+	}
+}

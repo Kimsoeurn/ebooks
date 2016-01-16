@@ -1,0 +1,34 @@
+/* Hero
+   ========================================================================== */
+
+/**
+ * Apply Style Indiviual Hero Page
+ */
+.hero {
+	@include hero($hero-home);
+}
+.about {
+	@include hero($hero-about);
+}
+
+.library {
+	@include hero($hero-libray);
+}
+.contact {
+	@include hero($hero-contact);
+}
+
+.title {
+	color: $white-color;
+	text-align: center;
+	padding-top: 60px;
+	h2 {
+		font-size: 48px;
+	}
+}
+.book {
+	background-color: $light-black;
+	color: #fff;
+	width: 100%;
+	height: 450px;
+}

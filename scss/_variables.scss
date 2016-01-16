@@ -1,0 +1,30 @@
+// Font Family and Size
+$font-family--primary	: 'Open Sans', sans-serif;
+$font-family--second	: "Lato";
+
+$font-size--h1			: 38px;
+$font-size--h2			: 30px;
+$font-size--h3			: 24px;
+$font-size--default		: 16px;
+
+
+// Base Color
+$white-color			: #fff;
+$color-rgba				: rgba($white-color, .8);
+$bg-color				: #f0f0f0;
+$text-color				: #777;
+$light-black			: #2E2D2D;
+
+// Hyperlink Color
+
+$default-hyperlink 		: $light-black;
+$hover-hyperlink		: $white-color;
+
+// Box Shadow
+$color-shadow			: #ccc;
+
+// Hero Background Indiviual Page
+$hero-home		: url(../images/hero.jpg);
+$hero-libray	: url(../images/hero2.jpg);
+$hero-contact	: url(../images/contact.jpg);
+$hero-about		: url(../images/notebook.jpg);

@@ -1,0 +1,63 @@
+/* Defaut
+   ========================================================================== */
+
+/**
+ * Set the Global Styles
+ */
+* {
+    box-sizing: border-box;
+}
+body {
+	font-family: $font-family--primary;
+	background-color: $bg-color;
+	color: $text-color;
+	line-height: 1.5em;
+}
+hr {
+	border: 1px solid $light-black;
+	margin: 10px;
+}
+// Global Style
+a {
+	color: $default-hyperlink;
+	text-decoration: none;
+}
+.selected {
+	@include hyperlink;
+	background-color: $default-hyperlink;
+	color: $white-color;
+	border-radius: 10px;
+}
+h2 {
+	font-size: $font-size--h2;
+}
+h3 {
+	font-size: 16px;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+} 
+.reference {
+	margin: 30px 0;
+	font-size: 22px;
+	text-align: center;
+	li {
+		padding: 10px;
+	}
+	li a:hover {
+		text-decoration: underline;
+		display: block;
+	}
+
+}

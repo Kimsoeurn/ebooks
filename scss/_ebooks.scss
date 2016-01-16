@@ -1,0 +1,50 @@
+/* Ebook
+   ========================================================================== */
+
+/**
+ * Apply Style Ebooks and Ebook
+ */
+figure {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	img {
+		width: 100%;
+		box-shadow:0 5px 5px #777;
+	}
+	figcaption {
+		text-align: center;
+		a {
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+
+	}
+}
+.author {
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+	padding: 10px;
+}
+.block{
+	background-color: $color-rgba;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow:0 5px 5px #ccc;
+
+}
+
+.cover {
+	margin-top: 20px;
+	figcaption {
+		padding: 10px;
+	}
+}
+.download {
+	padding: 20px 0;
+	text-align: center;
+}
